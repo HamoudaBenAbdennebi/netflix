@@ -1,0 +1,99 @@
+.card {
+  border: 3px solid #232323;
+  margin: 5px;
+  transition: 0.4s;
+}
+.card:hover {
+  border: 3px solid tomato;
+}
+
+.card h3,
+.card p {
+  padding: 0 6px 6px 6px;
+}
+.List {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  color: white;
+}
+form * {
+  border-bottom: 1px solid white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 30px;
+  background-color: #232323;
+  padding-left: 20px;
+}
+::placeholder {
+  color: white;
+}
+form button {
+  color: white;
+  background-color: tomato;
+  border: none;
+  transition: 0.4s;
+}
+form button:hover {
+  background-color: rgb(255, 255, 255);
+  color: tomato;
+}
+.containerForm {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+input {
+  color: white;
+}
+option {
+  background-color: #232323;
+}
+.open {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .card img {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .card img {
+    width: 300px;
+    height: 450px;
+  }
+  .card {
+    width: 300px;
+  }
+}
+.FilterContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #333;
+}
+.FilterContainer button {
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: tomato;
+  border: 1px solid black;
+  margin: 0 20px 0 20px;
+  transition: 0.2s;
+}
+.FilterContainer button:hover {
+  background-color: tomato;
+  color: black;
+}

@@ -1,0 +1,47 @@
+.NavBar {
+  background-color: #232323;
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.NavBar div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.NavBar h1 {
+  color: tomato;
+}
+.NavBar div p {
+  padding: 0 5px 0 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: 0.2s;
+}
+.NavBar div p:hover {
+  color: tomato;
+}
+@media screen and (max-width: 500px) {
+  .P {
+    display: none;
+  }
+  .S {
+    display: block;
+  }
+}
+@media screen and (min-width: 500px) {
+  .S {
+    display: none;
+  }
+  .P {
+    display: block;
+  }
+}
+
+.ok {
+  display: block;
+}
+.no {
+  display: none;
+}
